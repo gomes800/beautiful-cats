@@ -1,0 +1,29 @@
+:host {
+  display: block;
+  height: 100vh;
+  background-color: #030000;
+  background-image: url('https://dwg31ai31okv0.cloudfront.net/images/Article_Images/ImageForArticle_549_17288689857007544.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.cat-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.cat-container img {
+  width: auto;
+  max-width: 90vw;
+  height: auto;
+  max-height: 80vh;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  object-fit: contain;
+}
+

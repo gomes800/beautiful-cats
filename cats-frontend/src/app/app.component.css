@@ -1,0 +1,17 @@
+:host {
+  display: block;
+  height: 100vh;
+  background-color: #030000;
+  background-image: url('https://dwg31ai31okv0.cloudfront.net/images/Article_Images/ImageForArticle_549_17288689857007544.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+  color: white;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-shadow: 2px 2px 5px #000;
+}

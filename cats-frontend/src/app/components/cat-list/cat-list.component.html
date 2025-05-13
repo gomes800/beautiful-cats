@@ -1,0 +1,6 @@
+<div class="cat-container" *ngIf="currentCat">
+  <img *ngIf="currentCat.type === 'image'" [src]="currentCat.url" alt="Cat image" />
+  <img *ngIf="currentCat.type === 'gif'" [src]="currentCat.url" alt="Cat gif" />
+</div>
+
+<p *ngIf="errorMessage">{{ errorMessage }}</p>
